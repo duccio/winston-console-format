@@ -25,7 +25,7 @@ const logger = createLogger({
             depth: Infinity,
             colors: true,
             maxArrayLength: Infinity,
-            breakLength: 80,
+            breakLength: 120,
             compact: Infinity
           }
         })
