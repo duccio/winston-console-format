@@ -20,7 +20,8 @@
     "kill-node-debug": "pkill -u \"$(whoami)\" -fn \"nodemon .* dist/example.js\" || true",
     "eslint": "eslint src/**/*",
     "build-ts": "tsc",
-    "watch-ts": "tsc -w"
+    "watch-ts": "tsc -w",
+    "test": "echo \"Error: no test specified\""
   },
   "repository": {
     "type": "git",
