@@ -1,0 +1,19 @@
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "eslint.enable": true,
+  "eslint.validate": [
+    "javascript",
+    { "language": "typescript", "autoFix": true }
+  ],
+  "prettier.eslintIntegration": true,
+  "typescriptHero.imports.insertSemicolons": false,
+  "typescriptHero.imports.insertSpaceBeforeAndAfterImportBraces": true,
+  "typescriptHero.imports.stringQuoteStyle": "\"",
+  "typescriptHero.imports.organizeOnSave": false,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true
+}

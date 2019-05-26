@@ -1,0 +1,61 @@
+{
+  "name": "winston-console-format",
+  "version": "0.0.1",
+  "description": "Winston@3 console formatter for debugging purposes using util.inspect().",
+  "author": {
+    "name": "Aldo Armiento <aldo@armiento.com>",
+    "url": "https://github.com/duccio/"
+  },
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "start": "node dist/example.js",
+    "debug": "npm run watch-debug",
+    "build": "npm run eslint && npm run build-ts",
+    "watch": "concurrently -k -i --default-input-target 1 -n Type,Node -c \"blue.dim,green.dim\" \"npm:watch-ts\" \"npm:watch-node\"",
+    "watch-debug": "concurrently -k -i --default-input-target 1 -n Type,Node -c \"blue.dim,green.dim\" \"npm:watch-ts\" \"npm:watch-node-debug\"",
+    "watch-node": "nodemon --ext js,json,yaml dist/example.js",
+    "watch-node-debug": "npm run kill-node-debug && nodemon --inspect --ext js,json,yaml -r source-map-support/register dist/example.js",
+    "kill-node-debug": "pkill -u \"$(whoami)\" -fn \"nodemon .* dist/example.js\" || true",
+    "eslint": "eslint src/**/*",
+    "build-ts": "tsc",
+    "watch-ts": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duccio/winston-console-format.git"
+  },
+  "homepage": "https://github.com/duccio/winston-console-format",
+  "bugs": {
+    "url": "https://github.com/duccio/winston-console-format/issues"
+  },
+  "keywords": [
+    "winston",
+    "console",
+    "format",
+    "formatter",
+    "inspect",
+    "debug",
+    "debugging"
+  ],
+  "devDependencies": {
+    "@types/logform": "^1.2.0",
+    "@types/node": "^12.0.2",
+    "@types/triple-beam": "^1.3.0",
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@typescript-eslint/parser": "^1.9.0",
+    "concurrently": "^4.1.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "nodemon": "^1.19.0",
+    "prettier": "^1.17.1",
+    "source-map-support": "^0.5.12",
+    "typescript": "^3.4.5",
+    "winston": "^3.2.1"
+  },
+  "dependencies": {
+    "colors": "^1.3.3"
+  }
+}
