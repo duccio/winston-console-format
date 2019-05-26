@@ -1,6 +1,6 @@
 {
   "name": "winston-console-format",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Winston@3 console formatter for debugging purposes using util.inspect().",
   "author": {
     "name": "Aldo Armiento <aldo@armiento.com>",
