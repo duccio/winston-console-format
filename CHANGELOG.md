@@ -2,12 +2,20 @@
 
 ## v0.0.1
 
-- Initial release.
+- Initial release
 
 ## v1.0.0
 
-- First official version.
+- First official version
 
 ## v1.0.1
 
-- NPM official version.
+- NPM official version
+
+## v1.0.2
+
+- Removed examples from NPM
+
+## v1.0.3
+
+- Fixed dependencies
