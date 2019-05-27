@@ -116,7 +116,7 @@ logger.error(new Error("Unexpected error"));
 
 ### options
 
-Configuration object.<br><br>Type: `Object`
+Configuration object.<br><br>Type: `ConsoleFormatOptions`
 
 ### options.showMeta
 
