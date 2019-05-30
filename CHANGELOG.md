@@ -19,3 +19,7 @@
 ## v1.0.3
 
 - Fixed dependencies
+
+## v1.0.4
+
+- Tests added
