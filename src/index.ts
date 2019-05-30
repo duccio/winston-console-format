@@ -115,7 +115,7 @@ class ConsoleFormat {
     })
   }
 
-  public transform(info: TransformableInfo): TransformableInfo | boolean {
+  public transform(info: TransformableInfo): TransformableInfo {
     const messages: string[] = []
 
     if (this.opts.showMeta) {
