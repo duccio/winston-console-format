@@ -1,10 +1,8 @@
 language: node_js
 node_js:
   - "8"
-  - "9"
   - "10"
-  - "11"
-  - stable
+  - "12"
 script:
   - npm ci
   - npm test
