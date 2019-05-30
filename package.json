@@ -23,8 +23,7 @@
     "watch-ts": "tsc -w",
     "test": "jest --verbose",
     "watch-test": "npm run test -- --watchAll",
-    "codecov": "codecov",
-    "ci": "npm run test && npm run codecov"
+    "codecov": "codecov"
   },
   "repository": {
     "type": "git",
