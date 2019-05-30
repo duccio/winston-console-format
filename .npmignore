@@ -1,8 +1,11 @@
 node_modules/
 .vscode/
 src/
+coverage/
+test/
 dist/example.*
 tsconfig.json
+jest.config.js
 example.js
 .DS_Store
 .gitignore
@@ -10,3 +13,4 @@ example.js
 .nvmrc
 .eslintrc.js
 .prettierignore
+.travis.yml
