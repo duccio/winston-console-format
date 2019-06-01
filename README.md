@@ -5,6 +5,7 @@
 [![Dependencies](https://img.shields.io/david/duccio/winston-console-format.svg?style=flat-square)](https://david-dm.org/duccio/winston-console-format)
 [![Build Status](https://img.shields.io/travis/duccio/winston-console-format/master.svg?style=flat-square)](https://travis-ci.com/duccio/winston-console-format)
 [![Codecov](https://img.shields.io/codecov/c/github/duccio/winston-console-format.svg)](https://codecov.io/github/duccio/winston-console-format)
+[![Greenkeeper badge](https://badges.greenkeeper.io/duccio/winston-console-format.svg)](https://greenkeeper.io/)
 
 Winston@3 console formatter for debugging purposes using util.inspect().
 
