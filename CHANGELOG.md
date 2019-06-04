@@ -23,3 +23,7 @@
 ## v1.0.4
 
 - Tests added
+
+## v1.0.5
+
+- Greenkeeper enabled
