@@ -9,7 +9,7 @@ export interface ConsoleFormatOptions {
   inspectOptions?: InspectOptions
 }
 
-class ConsoleFormat {
+export class ConsoleFormat {
   private static readonly reSpaces = /^\s+/
   private static readonly reSpacesOrEmpty = /^(\s*)/
   private static readonly reColor = /\x1B\[\d+m/
