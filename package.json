@@ -45,7 +45,7 @@
   "devDependencies": {
     "@types/jest": "^24.0.13",
     "@types/logform": "^1.2.0",
-    "@types/node": "^12.0.2",
+    "@types/node": "^12.12.13",
     "@types/triple-beam": "^1.3.0",
     "@typescript-eslint/eslint-plugin": "^1.9.0",
     "@typescript-eslint/parser": "^1.9.0",
