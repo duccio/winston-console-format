@@ -35,3 +35,7 @@
 ## v1.0.7
 
 - Node 8 support removed
+
+## v1.0.8
+
+- Project migrated to Snyk
