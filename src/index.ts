@@ -18,7 +18,7 @@ export class ConsoleFormat {
     singleLine: "▪",
     startLine: "┏",
     line: "┃",
-    endLine: "┗"
+    endLine: "┗",
   }
 
   public constructor(private opts: ConsoleFormatOptions = {}) {
@@ -31,7 +31,7 @@ export class ConsoleFormat {
   private inspector(value: any, messages: string[]): void {
     const inspector = inspect(value, this.opts.inspectOptions || {})
 
-    inspector.split("\n").forEach(line => {
+    inspector.split("\n").forEach((line) => {
       messages.push(line)
     })
   }
@@ -80,8 +80,8 @@ export class ConsoleFormat {
     const messages: string[] = []
     const stripped = { ...info }
 
-    ConsoleFormat.defaultStrip.forEach(e => delete stripped[e])
-    this.opts.metaStrip && this.opts.metaStrip.forEach(e => delete stripped[e])
+    ConsoleFormat.defaultStrip.forEach((e) => delete stripped[e])
+    this.opts.metaStrip && this.opts.metaStrip.forEach((e) => delete stripped[e])
 
     if (Object.keys(stripped).length > 0) {
       this.inspector(stripped, messages)

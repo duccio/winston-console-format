@@ -3,17 +3,19 @@
     "**/node_modules": true,
     "**/dist": true
   },
-  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.tsdk": "./node_modules/typescript/lib",
   "eslint.enable": true,
-  "eslint.validate": [
-    "javascript",
-    { "language": "typescript", "autoFix": true }
-  ],
-  "prettier.eslintIntegration": true,
+  "eslint.format.enable": true,
+  "eslint.validate": ["typescript"],
+  "prettier.disableLanguages": ["typescript"],
+  "prettier.printWidth": 120,
   "typescriptHero.imports.insertSemicolons": false,
   "typescriptHero.imports.insertSpaceBeforeAndAfterImportBraces": true,
   "typescriptHero.imports.stringQuoteStyle": "\"",
   "typescriptHero.imports.organizeOnSave": false,
   "editor.tabSize": 2,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  }
 }

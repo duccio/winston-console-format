@@ -25,12 +25,12 @@ const logger = createLogger({
             colors: true,
             maxArrayLength: Infinity,
             breakLength: 120,
-            compact: Infinity
-          }
+            compact: Infinity,
+          },
         })
-      )
-    })
-  ]
+      ),
+    }),
+  ],
 })
 
 logger.silly("Logging initialized")
@@ -38,7 +38,7 @@ logger.debug("Debug an object", { make: "Ford", model: "Mustang", year: 1969 })
 logger.verbose("Returned value", { value: util.format })
 logger.info("Information", {
   options: ["Lorem ipsum", "dolor sit amet"],
-  values: ["Donec augue eros, ultrices."]
+  values: ["Donec augue eros, ultrices."],
 })
 logger.warn("Warning")
 logger.error(new Error("Unexpected error"))

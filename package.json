@@ -1,6 +1,6 @@
 {
   "name": "winston-console-format",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Winston@3 console formatter for debugging purposes using util.inspect().",
   "author": {
     "name": "Aldo Armiento <aldo@armiento.com>",
@@ -43,28 +43,28 @@
     "debugging"
   ],
   "devDependencies": {
-    "@types/jest": "^24.0.13",
-    "@types/logform": "^1.2.0",
-    "@types/node": "^12.0.2",
-    "@types/triple-beam": "^1.3.0",
-    "@typescript-eslint/eslint-plugin": "^1.9.0",
-    "@typescript-eslint/parser": "^1.9.0",
-    "codecov": "^3.5.0",
-    "concurrently": "^4.1.0",
-    "eslint": "^5.16.0",
-    "eslint-config-prettier": "^4.3.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "jest": "^24.8.0",
-    "nodemon": "^1.19.0",
-    "prettier": "^1.17.1",
-    "source-map-support": "^0.5.12",
-    "ts-jest": "^24.0.2",
-    "typescript": "^3.4.5",
-    "winston": "^3.2.1"
+    "@types/jest": "^26.0.8",
+    "@types/logform": "^1.10.1",
+    "@types/node": "^12.12.53",
+    "@types/triple-beam": "^1.3.1",
+    "@typescript-eslint/eslint-plugin": "^3.8.0",
+    "@typescript-eslint/parser": "^3.8.0",
+    "codecov": "^3.7.2",
+    "concurrently": "^5.2.0",
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.2.2",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "source-map-support": "^0.5.19",
+    "ts-jest": "^26.1.4",
+    "typescript": "^3.9.7",
+    "winston": "^3.3.3"
   },
   "dependencies": {
-    "colors": "^1.3.3",
-    "logform": "^2.1.2",
+    "colors": "^1.4.0",
+    "logform": "^2.2.0",
     "triple-beam": "^1.3.0"
   }
 }
