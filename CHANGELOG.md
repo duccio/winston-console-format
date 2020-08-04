@@ -27,3 +27,11 @@
 ## v1.0.5
 
 - Greenkeeper enabled
+
+## v1.0.6
+
+- Dependencies bumped
+
+## v1.0.7
+
+- Node 8 support removed
